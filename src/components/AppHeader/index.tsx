@@ -47,7 +47,7 @@ const AppHeader: React.FC = () => {
             }}
           >
             <Link to="/" style={{ whiteSpace: "nowrap", marginRight: "10px" }}>
-              NanoLooker
+              Piloulooker
             </Link>
           </Col>
           <Col xs={{ span: 24, order: 3 }} md={{ span: 12, order: 2 }}>
@@ -77,7 +77,7 @@ const AppHeader: React.FC = () => {
                   {t("menu.largeTransactions")}
                   <Link to="/large-transactions" />
                 </Menu.Item>
-                <Menu.Item key="distribution">
+                {/* <Menu.Item key="distribution">
                   {t("menu.distribution")}
                   <Link to="/distribution" />
                 </Menu.Item>
@@ -88,7 +88,7 @@ const AppHeader: React.FC = () => {
                 <Menu.Item key="faucets">
                   {t("menu.faucets")}
                   <Link to="/faucets" />
-                </Menu.Item>
+                </Menu.Item> */}
               </SubMenu>
 
               <Menu.Item key="news">

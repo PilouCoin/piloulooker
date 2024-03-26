@@ -38,9 +38,9 @@ const Banner: React.FC = () => {
         }}
       >
         <img
-          alt="Nano block explorer"
-          height="24px"
-          src={`/nano-${theme === Theme.DARK ? "dark" : "light"}.png`}
+          alt="Pilou block explorer"
+          height="60px"
+          src={`/logo_text.png`}
           style={{ marginRight: "12px" }}
         />
         <Title
@@ -67,7 +67,7 @@ const Banner: React.FC = () => {
           <Button ghost>{t("menu.whatIsNano")}</Button>
         </Link> */}
 
-        <Button
+        {/* <Button
           ghost
           href="https://pasino.com/?user_id=18828"
           target="_blank"
@@ -108,9 +108,9 @@ const Banner: React.FC = () => {
               Pasino
             </Text>
           </div>
-        </Button>
+        </Button> */}
 
-        <Link to={"/nanobrowserquest"}>
+        {/* <Link to={"/nanobrowserquest"}>
           <Button
             ghost
             style={{ padding: "0 10px" }}
@@ -128,7 +128,7 @@ const Banner: React.FC = () => {
               NanoBrowserQuest
             </div>
           </Button>
-        </Link>
+        </Link> */}
 
         {/* <Link to={"/nanoquakejs"}>
           <Button ghost>
@@ -151,7 +151,7 @@ const Banner: React.FC = () => {
             Tracker.ga4?.gtag("event", "GoToBananoLooker");
           }}
         >
-          <img alt="Go to BananoLooker" src={`/banano.svg`} height="12px" />
+          <img alt="Go to Bapiloulooker" src={`/banano.svg`} height="12px" />
         </Button> */}
       </Space>
     </div>

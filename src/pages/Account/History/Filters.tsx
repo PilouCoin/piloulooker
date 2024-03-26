@@ -185,7 +185,7 @@ const Filters: React.FC = () => {
                   <Input
                     {...field}
                     style={{ flexGrow: 1 }}
-                    placeholder="nano_"
+                    placeholder="dog_"
                     onPaste={e => {
                       e.preventDefault();
 
@@ -249,7 +249,7 @@ const Filters: React.FC = () => {
                     {...field}
                     name="receiver"
                     style={{ flexGrow: 1 }}
-                    placeholder="nano_"
+                    placeholder="dog_"
                     onPaste={e => {
                       e.preventDefault();
 

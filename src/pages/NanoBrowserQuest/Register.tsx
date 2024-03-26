@@ -11,7 +11,7 @@ import Play from "./Play";
 const { Text } = Typography;
 
 export const NANOBROWSERQUEST_DONATION_ACCOUNT =
-  "nano_1questzx4ym4ncmswhz3r4upwrxosh1hnic8ry8sbh694r48ajq95d1ckpay";
+  "dog_1questzx4ym4ncmswhz3r4upwrxosh1hnic8ry8sbh694r48ajq95d1ckpay";
 
 const Register: React.FC = () => {
   const { t } = useTranslation();
